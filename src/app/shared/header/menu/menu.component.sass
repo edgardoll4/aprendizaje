@@ -1,0 +1,52 @@
+@import ../../../sass/_variables
+/* pirmer nivel*/
+
+nav > ul
+    list-style: none
+    padding: 0
+    background: $c-primary
+    display: inline-flex
+    width: $full
+    border: 
+        width: $grosor-borde
+        style: solid
+        color: $c-borde
+    a
+        color: $color14
+        display: block
+        //padding: $grosor-padding
+        text-decoration: none
+        transition: .4s
+        padding-left: .2rem
+        padding-right: .2rem
+        &:hover
+            background: $c-menu-hover
+            border:
+                width: $grosor-borde
+                style: solid
+                color: $color14
+            border-bottom-color: $color6
+            
+nav > ul > li
+    float: left
+    line-height: 1rem
+
+/*h2
+    background-color: blue
+    color: red
+ 
+    transform: rotateZ(0)
+    animation-duration: 5s
+    -webkit-animation-duration: 5s
+    -moz-animation-duration: 5s
+    &:hover
+        background-color: red
+        color: blue
+        border: .7rem solid $c-secundario
+        //display: inline-block
+        transform: rotateZ($angulorotacion)
+        z-index: ($atras)
+        animation-duration: 5s
+        -webkit-animation-duration: 5s
+        -moz-animation-duration: 5s
+        */
